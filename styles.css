@@ -134,7 +134,7 @@ body {
   height: 100%;
   background-color: var(--Very-Dark-Grayish-Blue);
   display: flex;
-  display: none;
+  visibility: hidden;
 }
 
 .over-share {
