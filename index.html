@@ -17,66 +17,68 @@
     />
     <link rel="stylesheet" href="./styles.css" />
     <title>Frontend Mentor | Article preview component</title>
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
     <main class="card">
       <figure class="cardImage">
         <img src="./images/drawers.jpg" alt="" />
       </figure>
+<div class="container">
 
-      <section class="info">
-        <h1>
-          Shift the overall look and feel by adding these wonderfull touches to
-          furniture in your home
-        </h1>
-        <p>
-          Ever been in a room and and felt like something was missing? Perhaps
-          it felt slightly bare and uninviting. I've got some simple tips to
-          help you make any room feel complete
-        </p>
-      </section>
+  <section class="info">
+    <h1>
+      Shift the overall look and feel by adding these wonderfull touches to
+      furniture in your home
+    </h1>
+    <p>
+      Ever been in a room and and felt like something was missing? Perhaps
+      it felt slightly bare and uninviting. I've got some simple tips to
+      help you make any room feel complete
+    </p>
+  </section>
 
-      <div class="footer">
-        <!-- Footer -->
-        <div class="footer-contain">
-          <div class="footer-identifier">
-            <img src="./images/avatar-michelle.jpg" alt="" />
-            <div class="identifier-info">
-              <h5>Michelle Appleton</h5>
-              <h6>28 June 2020</h6>
-            </div>
-          </div>
-          <div class="sharecta" id="share" onclick="show()">
-            <figure>
-              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
-            </figure>
-          </div>
-        </div>
-        <!-- Over Footer -->
-        <div class="over-contain" id="overContain">
-          <div class="over-share" onclick="hide()">
-            <p>S H A R E</p>
-            <figure>
-              <a href="https://www.facebook.com">
-                <img src="./images/icon-facebook.svg" alt="">
-              </a>
-              <a href="https://www.twitter.com">
-                <img src="./images/icon-twitter.svg" alt="">
-              </a>
-              <a href="https://www.pinterest.com">
-                <img src="./images/icon-pinterest.svg" alt="">
-              </a>
-            </figure>
-            </div>
-            <div class="over-sharecta">
-              <figure>
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="hsl(210, 46%, 95%)" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
-              </figure>
-            </div>
-          </div>
+  <div class="footer">
+    <!-- Footer -->
+    <div class="footer-contain">
+      <div class="footer-identifier">
+        <img src="./images/avatar-michelle.jpg" alt="" />
+        <div class="identifier-info">
+          <h5>Michelle Appleton</h5>
+          <h6>28 June 2020</h6>
         </div>
       </div>
+      <div class="sharecta" id="share" onclick="show()">
+        <figure>
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+        </figure>
+      </div>
+    </div>
+    <!-- Over Footer -->
+    <div class="over-contain" id="overContain">
+      <div class="over-share" onclick="hide()">
+        <p>S H A R E</p>
+        <figure>
+          <a href="https://www.facebook.com">
+            <img src="./images/icon-facebook.svg" alt="">
+          </a>
+          <a href="https://www.twitter.com">
+            <img src="./images/icon-twitter.svg" alt="">
+          </a>
+          <a href="https://www.pinterest.com">
+            <img src="./images/icon-pinterest.svg" alt="">
+          </a>
+        </figure>
+        <div class="pointer"></div>
+      </div>
+        <div class="over-sharecta">
+          <figure>
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="hsl(210, 46%, 95%)" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     </main>
     <script src="./index.js"></script>
   </body>
